@@ -8,6 +8,15 @@ Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発�
 
 ## 2018-08-03
 ### Changed
+- [Get Movies by User](https://apiv2-doc.twitcasting.tv/#get-movies-by-user)
+  - `offset` の値の上限が `1000` になりました
+  - `slice_id` パラメータが追加されました
+- [Get Comments](https://apiv2-doc.twitcasting.tv/#get-comments)
+  - `slice_id` に指定可能な最小値が `1` になりました
+
+## 2018-08-03
+### Changed
 - [Validation Error Code](https://apiv2-doc.twitcasting.tv/#validation-error-code-1001) が変更されました
-- [User Object](https://apiv2-doc.twitcasting.tv/#get-user-info) の `created` パラメータが非推奨になりました
+- [User Object](https://apiv2-doc.twitcasting.tv/#get-user-info)
+  - `created` パラメータが固定値 `0` となり、非推奨になりました
 
