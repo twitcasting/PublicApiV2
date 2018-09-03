@@ -6,6 +6,15 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2018-09-03
+### Changed
+- [User Object](https://apiv2-doc.twitcasting.tv/#get-user-info)
+  - `supporter_count`, `supporting_count` パラメータが固定値 `0` となり、非推奨になりました
+- [Get User Info](https://apiv2-doc.twitcasting.tv/#get-user-info)
+  - `supporter_count`, `supporting_count` パラメータが追加されました
+- [Verify Credentials](https://apiv2-doc.twitcasting.tv/#verify-credentials)
+  - `supporter_count`, `supporting_count` パラメータが追加されました
+
 ## 2018-08-28
 ### Changed
 - [Get Movies by User](https://apiv2-doc.twitcasting.tv/#get-movies-by-user)
