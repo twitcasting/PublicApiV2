@@ -6,6 +6,11 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2018-09-27
+### Changed
+- [Incoming WebHook](https://apiv2-doc.twitcasting.tv/#incoming-webhook)
+  - リクエストボディに `broadcaster` 追加されました
+
 ## 2018-09-03
 ### Changed
 - [User Object](https://apiv2-doc.twitcasting.tv/#get-user-info)
