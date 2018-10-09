@@ -6,6 +6,14 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2018-10-09
+### Fixed
+- [Get Comments](https://apiv2-doc.twitcasting.tv/#get-comments)
+  - コメントオブジェクトの `message` フィールドの制御文字のエスケープについて[RFC4627](https://www.ietf.org/rfc/rfc4627.txt)準拠の方式へ変更しました
+- [Post Comment](https://apiv2-doc.twitcasting.tv/#post-comment)
+  - 同上
+
+
 ## 2018-09-27
 ### Changed
 - [Incoming WebHook](https://apiv2-doc.twitcasting.tv/#incoming-webhook)
