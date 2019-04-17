@@ -6,6 +6,11 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2019-04-17
+### Fixed
+- [Movie Object](https://apiv2-doc.twitcasting.tv/#movie-object)
+  - `hls_url` パラメータの URL を `http` から `https` に変更しました
+
 ## 2018-10-09
 ### Fixed
 - [Get Comments](https://apiv2-doc.twitcasting.tv/#get-comments)
