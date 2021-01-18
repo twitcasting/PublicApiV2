@@ -6,6 +6,19 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2021-01-18
+### Added
+- [Get Gifts](https://apiv2-doc.twitcasting.tv/#get-gifts)
+    - 直近10秒程度の間に送信されたアイテムを取得するAPIが追加されました
+- [Set Current Live Subtitle](https://apiv2-doc.twitcasting.tv/#set-current-live-subtitle)
+    - 配信中の場合にライブのテロップを設定するAPIが追加されました
+- [Unset Current Live Subtitle](https://apiv2-doc.twitcasting.tv/#unset-current-live-subtitle)
+    - 配信中の場合にライブのテロップを解除するAPIが追加されました
+- [Set Current Live Hashtag](https://apiv2-doc.twitcasting.tv/#set-current-live-hashtag)
+    - 配信中の場合にライブのハッシュタグを設定するAPIが追加されました
+- [Unset Current Live Hashtag](https://apiv2-doc.twitcasting.tv/#unset-current-live-hashtag)
+    - 配信中の場合にライブのハッシュタグを解除するAPIが追加されました
+
 ## 2019-04-17
 ### Fixed
 - [Movie Object](https://apiv2-doc.twitcasting.tv/#movie-object)
