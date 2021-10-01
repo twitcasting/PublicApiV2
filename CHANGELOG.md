@@ -6,6 +6,15 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2021-09-29
+
+### Changed
+
+- [Get Supporting Status](https://apiv2-doc.twitcasting.tv/#get-supporting-status)
+  - レスポンスにサポートした日時のunixタイムスタンプ `supported` を追加しました
+- [Supporter List](https://apiv2-doc.twitcasting.tv/#supporter-list), [Supporting List](https://apiv2-doc.twitcasting.tv/#supporting-list)
+  - レスポンスの [SupporterUser object](https://apiv2-doc.twitcasting.tv/#supporteruser-object) にサポートした日時のunixタイムスタンプ `supported` を追加しました
+
 ## 2021-01-18
 ### Added
 - [Get Gifts](https://apiv2-doc.twitcasting.tv/#get-gifts)
