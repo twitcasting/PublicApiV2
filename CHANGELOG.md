@@ -6,6 +6,12 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2023-07-25
+
+### Changed
+- [Post Comment](https://apiv2-doc.twitcasting.tv/#post-comment)
+  - SNSへの同時投稿機能が機能停止中のため、 `sns` パラメータの指定は無視され、デフォルト値である `none` を指定した場合と同じ振る舞いになります。
+
 ## 2021-09-29
 
 ### Changed
