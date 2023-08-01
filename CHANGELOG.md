@@ -10,7 +10,7 @@ Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発�
 
 ### Changed
 - [Set Current Live Subtitle](https://apiv2-doc.twitcasting.tv/#set-current-live-subtitle)
-  - ライブのテロップを設定する際の文字数カウントに関する不具合が修正されました。テロップは半角34文字全角17文字まで設定できるようになりました。
+  - ライブのテロップを設定する際の文字数カウントに関する不具合が修正されました。テロップは半角34文字、全角17文字まで設定できるようになりました。
 
 ## 2023-07-25
 
