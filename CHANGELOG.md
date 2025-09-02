@@ -9,8 +9,8 @@ Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発�
 ## 2025-08-22
 
 ### Changed
-- [Get WebM Url](https://apiv2-doc.twitcasting.tv/#get-webm-url)
-  - APIが廃止されました。
+- Get WebM Url
+  - アクセストークンに紐づくユーザの配信用のURL (WebM, WebSocket)を取得するAPIが廃止されました。
 
 ## 2023-08-01
 
