@@ -6,6 +6,12 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2025-06-11
+
+### Changed
+- Get WebM Url
+  - アクセストークンに紐づくユーザの配信用のURL (WebM, WebSocket)を取得するAPIが廃止されました。
+
 ## 2023-08-01
 
 ### Changed
