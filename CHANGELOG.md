@@ -6,7 +6,7 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
-## 2025-08-22
+## 2025-06-11
 
 ### Changed
 - Get WebM Url
