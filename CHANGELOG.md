@@ -6,6 +6,13 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2025-12-25
+
+- [Get Upcoming Live Schedules](https://apiv2-doc.twitcasting.tv/#get-upcoming-live-schedules)
+  - ユーザの直近ライブスケジュールを取得するAPIを追加しました
+- [Incoming WebHook](https://apiv2-doc.twitcasting.tv/#incoming-webhook)
+  - ライブスケジュールの作成・更新・削除イベントを追加しました
+
 ## 2025-06-11
 
 ### Changed
