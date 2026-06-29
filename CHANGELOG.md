@@ -6,6 +6,12 @@ APIの仕様については、[公式ドキュメント](https://apiv2-doc.twitc
 
 Twitter [@twitcasting_dev](https://twitter.com/twitcasting_dev) での情報発信も行っております。
 
+## 2026-06-26
+
+### Changed
+- [Movie object](https://apiv2-doc.twitcasting.tv/#movie-object) にメンバーシップ配信、プレミア配信のフラグ `is_membership`、`is_premier` を追加しました
+- [Incoming WebHook](http://eapi-doc-test01.sidefeed.com/#incoming-webhook) がメンバーシップ配信、プレミア配信の場合もlivestart,liveendのWebhookを送信するようになりました
+
 ## 2025-12-25
 
 - [Get Upcoming Live Schedules](https://apiv2-doc.twitcasting.tv/#get-upcoming-live-schedules)
